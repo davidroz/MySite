@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     width: 100%;
 	color: rgb(22, 21, 21);
-	background-color: rgb(94, 119, 46);
+	background-color: rgb(72, 111, 148);
 	font-size: 28px;
 	margin: 0;
 	padding: 0;
@@ -51,11 +51,11 @@ nav a{
 }
 
 nav a:hover{
-	background-color: #18BC9C; 
+	background-color: rgb(48, 124, 25); 
 }
 
 .active{
-	background-color: #18BC9C;
+	background-color: rgb(182, 182, 182);
 }
 
 .section {
@@ -98,7 +98,7 @@ nav a:hover{
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
 .gallery > div {
@@ -108,23 +108,31 @@ nav a:hover{
     margin: 0 auto;
 }
 
-.gallery > div > img {
+.gallery > div >img {
     border: 2px solid wheat;
     display: block;
-    width: 250px;
+    width: 300px;
     transition: .1s transform;
-    transform: translateZ(0); /* hack */
+	transform: translateZ(0); /* hack */
 	box-shadow: 3px 3px 2px rgba(0, 0, 0, .7);
 }
 
-.gallery > div > div > img {
+.gallery > div > div >img {
     border: 2px solid wheat;
     display: block;
-    width: 250px;
+    width: 300px;
     transition: .1s transform;
-    transform: translateZ(0); /* hack */
+	transform: translateZ(0) rotate(270deg);
 	box-shadow: 3px 3px 2px rgba(0, 0, 0, .7);
-	transform:rotate(270deg);
+}
+
+.gallery > div > div > div > img {
+    border: 2px solid wheat;
+    display: block;
+    width: 300px;
+    transition: .1s transform;
+	transform: translateZ(0) rotate(180deg);
+	box-shadow: 3px 3px 2px rgba(0, 0, 0, .7);
 }
 
 .gallery > div:hover {
@@ -136,9 +144,13 @@ nav a:hover{
     transition: .3s transform;
 }
 
-
 .gallery > div > div:hover > img {
-    transform: scale(1.9, 1.9);
+    transform: scale(1.9, 1.9) rotate(270deg);
+    transition: .3s transform;
+}
+
+.gallery > div > div > div:hover > img {
+    transform: scale(1.9, 1.9) rotate(180deg);
     transition: .3s transform;
 }
 
