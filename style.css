@@ -2,17 +2,12 @@ html, body {
     height: 100%;
     width: 100%;
 	color: rgb(22, 21, 21);
-	background-color: rgb(72, 111, 148);
+	background-color: rgb(72, 131, 185);
 	font-size: 28px;
 	margin: 0;
 	padding: 0;
 }
 
-/* Font */
- @font-face {
-	font-family: font;
-	src: url(BerkshireSwash-Regular.ttf);
- }
 
  .logo-div {
     height: 100%;
@@ -27,6 +22,7 @@ nav{
 	overflow: hidden;
 	position: fixed;
 }
+
 #links-div{
 	float: right;
 	margin: 0;
@@ -38,7 +34,7 @@ nav{
 nav a{
 	display: block;
 	float: left;
-	font-family: font;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: white;
 	text-decoration: none;
 	padding-top: 20px;
@@ -65,13 +61,14 @@ nav a:hover{
 	display: block;
 }
 
+
 /*Buttons*/
 
 
 .btn {
 	border-width: 2px;
 	color: white;
-	font-family: font;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	border-radius: 12px;
 	display: inline-block;
   }
@@ -171,7 +168,7 @@ nav a:hover{
 .btn {
 	border-width: 2px;
 	color: white;
-	font-family: font;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	border-radius: 12px;
 	display: inline-block;
   }
@@ -180,27 +177,21 @@ nav a:hover{
 	border-color: #2c3e50;
   }
   
-  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-	background-color: #128f76;
-	border-color: #128f76;
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active 
+  {
+	background-color: rgb(48, 124, 25);
   }
-  .btn-xl {
+
+  .btn-xl
+   {
 	padding: 0.5rem 0.5rem;
 	font-size: 0.7rem;
   }
 
-
-  .text-div {
-    color: #2c3e50;
-    font-family: font;
-    width: 80;
-    margin: auto;
-}
-
 #footer{
 	background-color: #2c3e50;
 	color: white;
-	font-family: nav-font;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	text-align: center;
 	padding-top: 2px;
 	padding-bottom: 2px;
