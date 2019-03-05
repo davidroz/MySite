@@ -8,7 +8,6 @@ html, body {
 	padding: 0;
 }
 
-
  .logo-div {
     height: 100%;
 	float: left;
@@ -111,7 +110,6 @@ nav a:hover{
     width: 300px;
     transition: .1s transform;
 	transform: translateZ(0); /* hack */
-	box-shadow: 3px 3px 2px rgba(0, 0, 0, .7);
 }
 
 .gallery > div > div >img {
@@ -120,7 +118,6 @@ nav a:hover{
     width: 300px;
     transition: .1s transform;
 	transform: translateZ(0) rotate(270deg);
-	box-shadow: 3px 3px 2px rgba(0, 0, 0, .7);
 }
 
 .gallery > div > div > div > img {
@@ -129,7 +126,6 @@ nav a:hover{
     width: 300px;
     transition: .1s transform;
 	transform: translateZ(0) rotate(180deg);
-	box-shadow: 3px 3px 2px rgba(0, 0, 0, .7);
 }
 
 .gallery > div:hover {
@@ -196,3 +192,14 @@ nav a:hover{
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
+
+hr { 
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 2px;
+	border-color: black;
+  }
