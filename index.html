@@ -4,14 +4,13 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" href="Website Logo.png">
     <meta charset="utf-8">
-    <!--Check it again-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>David Rosenberg</title>
 </head>
 <body>
   <nav> 
     <div class="logo-div">
-      <img id="logo" src="Website Logo.png" width="50" height="50">
+          <img id="logo" src="Website Logo.png" width="50" height="50">
     </div>   
     <div id="links-div">
           <a class="link active" href="#about">About Me</a>
@@ -88,7 +87,6 @@
 <br>
 <hr width="60%">
 
-
 <section id="playlist" class="section">
 	<br/><br/><br/>
 	<header class="section-header">My kind of music &emsp; <img src="playlist.png" width="50" height="50"/></header>
@@ -110,15 +108,19 @@
     <br>
     <br>
 </section>
+
 <br><br>
 <hr width="60%">
+
 <section id="qrcoder" class="section">
   <br><br>
 	<header class="section-header">Scan My Code</header> <br/>
 	<img style="height:10%; width:10%;" src="myQR.png"/>
 </section>
+
 <br><br>
 <hr width="60%">
+
 <section id="spa" class="section">
 	<br><br><br>
 	<header class="section-header">Questions & Answers</header>
@@ -141,7 +143,9 @@
 		We got most relevant sites to our user-profile, in this case we expect to find the conversation or the information for the user age, gender, medical-status(pregnancy, etc.)<br/><br/>
 	</div>
 </section>
+
 <hr width="60%">
+
 <section id="contact" class="section">
 <br/><br/><br/><br/>
     <header 
@@ -169,27 +173,25 @@
 			<br><br><br>
 </section>
 
-<footer id="footer"> Visit my linkedin:  
+  <footer id="footer"> Visit my linkedin:  
     <a align="bottom" href="https://www.linkedin.com/in/david-rosenberg-29626415a/" target="_blank">
       <img src="linkedin.png"/>
     </a>
- </footer>
+  </footer>
 
- 
-
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
+  <script type="text/javascript">
+  $(function(){
+    $("#nav a").click(function(e){
+      e.preventDefault();
+      $('html,body').scrollTo(this.hash,this.hash); 
+    });
   });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+  </script>
+  <script type="text/javascript">
+  $(document).scroll(function() {
+      $('#menu').toggle($(this).scrollTop()>1000)
+  });​
+  </script>
 
   <script>
   // Add active class to the current button (highlight it)
